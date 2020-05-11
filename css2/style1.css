@@ -3,6 +3,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --color-aditional: #ffffff;
 }
 body {
   background: var(--color-bg-primary);
@@ -123,4 +124,5 @@ footer {
 .buttom-secondery {
   text-decoration-line: none;
   background-color: var(--accent-color);
+  color: var(--color-aditional);
 }
