@@ -48,7 +48,7 @@ color: #2196F3; */
   color: #2196f3;
 }
 .site-auth {
-  text-decoration: none;
+  text-decoration-line: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -57,7 +57,7 @@ color: #2196F3; */
   color: #757575;
 }
 .site-nav {
-  text-decoration: none;
+  text-decoration-line: none;
   color: #212121;
   font-style: normal;
   font-weight: 500;
@@ -113,14 +113,14 @@ footer {
   color: #ffffff;
 }
 .buttom {
+  text-decoration-line: none;
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
 .buttom-primery {
-  color: ;
-  background-color: ;
+  text-decoration-line: none;
 }
 .buttom-secondery {
-  color: #ffffff;
+  text-decoration-line: none;
   background-color: var(--accent-color);
 }
