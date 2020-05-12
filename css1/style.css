@@ -27,12 +27,12 @@ h5 {
   color: var(--title-text-color);
 }
 header {
-  background: #ffffff;
+  background: var(--color-aditional);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .logo {
   text-decoration-line: none;
-  --title-text-color: #212121;
+  color: var(--title-text-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -60,7 +60,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .site-nav:hover,
@@ -90,6 +90,7 @@ header {
   text-transform: uppercase;
 }
 .attention-text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -126,16 +127,15 @@ header {
 .teamer {
   font-size: 16px;
   line-height: 1.19;
-
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .team-job {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .customers {
   font-weight: 700;
@@ -151,11 +151,14 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.header-email {
-  color: #2196f3;
-}
+
 .blue {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.blue:hover,
+.blue:focus {
+  color: var(--accent-color);
 }
 
 /* color: #2196f3;
@@ -183,6 +186,18 @@ footer {
   text-decoration-line: none;
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.buttom:hover,
+.buttom:focus {
+  background-color: var(--accent-color);
+  color: var(--color-aditional);
 }
 .buttom-primery {
   text-decoration-line: none;
@@ -195,7 +210,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.none-line {
+buttom .none-line {
   text-decoration-line: none;
 }
 .footer-kont {
@@ -211,5 +226,21 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: u ppercase;
+  color: #ffffff;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
